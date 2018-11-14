@@ -10,8 +10,7 @@ OR
 npm install --save normalize.cssinjs
 ```
 ```
-import normalizeCssInJs from 'normalize.cssinjs';
-const resets = normalizeCssInJs();
+import resets from 'normalize.cssinjs';
 ```
 
 ## Settings
@@ -21,6 +20,7 @@ const resets = normalizeCssInJs();
 By default it uses [CSStools Normalize.css](https://github.com/csstools/normalize.css/) but you can provide your selected with:
 
 ```
+import { normalizeCssInJs } from 'normalize.cssinjs';
 import cssString from "!raw-loader!normalize.css"
 const resets = normalizeCssInJs({ normalize: cssString })
 ```

@@ -19,6 +19,10 @@
     "reset",
     "cssinjs"
   ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "author": "Joonas Kallunki <jkallunki@gmail.com> (https://jkallunki.net/)",
   "license": "MIT",
   "bugs": {

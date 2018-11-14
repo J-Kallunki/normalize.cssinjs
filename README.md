@@ -1,6 +1,6 @@
 # normalize.cssinjs
 
-Normalize.css in CSS-in-JS format
+Normalize.css in CSS-in-JS format. Uses other my library [css-in-to-js](https://github.com/J-Kallunki/css-in-to-js).
 
 ## Usage
 

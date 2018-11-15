@@ -6,6 +6,7 @@
   "scripts": {
     "cover": "cross-env NODE_ENV=test nyc mocha 'src/*.test.js'",
     "check-coverage": "cross-env NODE_ENV=test nyc check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
+    "report-coverage": "cat ./coverage/lcov.info | codecov",
     "test": "mocha --require @babel/polyfill --require @babel/register 'src/*.test.js'",
     "test:watch": "npm test -- --watch",
     "prebuild": "rimraf dist",
@@ -45,6 +46,7 @@
     "babel-plugin-inline-import": "3.0.0",
     "babel-plugin-istanbul": "5.1.0",
     "chai": "4.2.0",
+    "codecov.io": "0.1.6",
     "cross-env": "5.2.0",
     "husky": "1.1.4",
     "lint-staged": "8.0.4",

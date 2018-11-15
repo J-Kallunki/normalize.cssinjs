@@ -1,5 +1,7 @@
 # normalize.cssinjs
 
+![travis build](https://img.shields.io/travis/J-Kallunki/normalize.cssinjs.svg?style=flat-square)
+
 Normalize.css in CSS-in-JS format. Uses other my library [css-in-to-js](https://github.com/J-Kallunki/css-in-to-js).
 
 ## Usage

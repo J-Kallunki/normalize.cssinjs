@@ -626,10 +626,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-9.0.1.tgz#c27b391d8457d1e893f1eddeaf5e5412d12ffbb5"
   integrity sha512-6It2EVfGskxZCQhuykrfnALg7oVeiI6KclWSmGDqB0AiInVrTGB9Jp9i4/Ad21u9Jde/voVQz6eFX/eSg/UsPA==
 
-"@jkallunki/css-in-to-js@1.0.1":
+"@j-kallunki/css-in-to-js@1.0.1":
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@jkallunki/css-in-to-js/-/css-in-to-js-1.0.1.tgz#83a356d8942cba02444c54111f8b58fbe8836597"
-  integrity sha512-znwQQ6OJZ2+3qXFpW/qK1ze3TcEhdtXSIaNlwZl8hPTedmyFA+AwW11Ep6bm7FNd/ufZmBf3HJu3AEGsjhWxxg==
+  resolved "https://registry.yarnpkg.com/@j-kallunki/css-in-to-js/-/css-in-to-js-1.0.1.tgz#2ca5b79a92eb8928805af411ab38a9ff59871e51"
+  integrity sha512-dSRpyedXhItE8b284cFAGplK/MbBXKGE1F7NADr5TPogOdapMAKb+L6BJ90w2/wP91jgwtzfsdmnkkIcALgcGQ==
   dependencies:
     clean-css "4.2.1"
     lodash "4.17.11"

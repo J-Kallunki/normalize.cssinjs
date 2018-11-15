@@ -21,7 +21,7 @@ import resets from 'normalize.cssinjs';
 
 ## Settings
 
-### normalize
+### `normalize`
 
 By default it uses [CSStools Normalize.css](https://github.com/csstools/normalize.css/) but you can provide your selected with:
 
@@ -32,7 +32,7 @@ const resets = normalizeCssInJs({ normalize: cssString })
 ```
 (or use something like babel-plugin-inline-import)
 
-### cssToString
+### `cssToString`
 
 If you wan't to get CSS-declarations in CSS-string format use:
 ```

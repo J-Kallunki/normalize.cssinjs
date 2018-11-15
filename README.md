@@ -6,7 +6,7 @@
 [![downloads](https://img.shields.io/npm/dm/normalize.cssinjs.svg?style=flat-square)](http://npm-stat.com/charts.html?package=normalize.cssinjs&from=2015-08-01)
 [![MIT License](https://img.shields.io/npm/l/normalize.cssinjs.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
-Normalize.css in CSS-in-JS format. Uses other my library [css-in-to-js](https://github.com/J-Kallunki/css-in-to-js).
+Normalize.css in CSS-in-JS format - when you don't wan't to inject global. Uses other my library [css-in-to-js](https://github.com/J-Kallunki/css-in-to-js).
 
 ## Usage
 

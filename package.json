@@ -31,7 +31,10 @@
   "homepage": "https://github.com/J-Kallunki/normalize.cssinjs#readme",
   "dependencies": {
     "@csstools/normalize.css": "9.0.1",
-    "@jkallunki/css-in-to-js": "1.0.1"
+    "@jkallunki/css-in-to-js": "1.0.1",
+    "husky": "1.1.4",
+    "lint-staged": "8.0.4",
+    "prettier": "1.15.2"
   },
   "devDependencies": {
     "@babel/cli": "7.1.5",
@@ -46,5 +49,16 @@
     "rimraf": "2.6.2",
     "webpack": "4.25.1",
     "webpack-cli": "3.1.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
   }
 }

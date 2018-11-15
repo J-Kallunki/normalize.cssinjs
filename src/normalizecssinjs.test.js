@@ -1,8 +1,11 @@
 import { expect } from 'chai';
 import reset, { normalizeCssInJs } from './normalizecssinjs';
-import CsstoolsNormalize from "@csstools/normalize.css";
+import CsstoolsNormalize from '@csstools/normalize.css';
 
-const reset2 = normalizeCssInJs({ normalize: CsstoolsNormalize, cssToString: true });
+const reset2 = normalizeCssInJs({
+  normalize: CsstoolsNormalize,
+  cssToString: true
+});
 
 const FOUND_SELECTOR = 'html';
 
@@ -10,7 +13,7 @@ describe('normalize.cssinjs', () => {
   it('Should be an object', () => {
     expect(reset).to.be.a('object');
     expect(reset2).to.be.a('object');
-  })
+  });
 
   it('Should contain selectors', () => {
     const keys = Object.keys(reset);
@@ -18,7 +21,7 @@ describe('normalize.cssinjs', () => {
 
     expect(keys).to.contain(FOUND_SELECTOR);
     expect(keys2).to.contain(FOUND_SELECTOR);
-  })
+  });
 
   it('Should contain declarations', () => {
     const values = reset[FOUND_SELECTOR];
@@ -28,5 +31,5 @@ describe('normalize.cssinjs', () => {
     expect(values[Object.keys(values)[0]]).to.be.a('string');
 
     expect(values2).to.be.a('string');
-  })
+  });
 });

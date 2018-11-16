@@ -10,12 +10,12 @@ Normalize.css in CSS-in-JS format - when you don't wan't to inject global. Uses 
 
 ## Usage
 
-```
+```bash
 yarn add normalize.cssinjs
 OR
 npm install --save normalize.cssinjs
 ```
-```
+```bash
 import resets from 'normalize.cssinjs';
 ```
 
@@ -25,7 +25,7 @@ import resets from 'normalize.cssinjs';
 
 By default it uses [CSStools Normalize.css](https://github.com/csstools/normalize.css/) but you can provide your selected with:
 
-```
+```javascript
 import { normalizeCssInJs } from 'normalize.cssinjs';
 import cssString from "!raw-loader!normalize.css"
 const resets = normalizeCssInJs({ normalize: cssString })
@@ -35,7 +35,7 @@ const resets = normalizeCssInJs({ normalize: cssString })
 ### `cssToString`
 
 If you wan't to get CSS-declarations in CSS-string format use:
-```
+```javascript
 const resets = normalizeCssInJs({ cssToString: true })
 ```
 

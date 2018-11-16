@@ -4,14 +4,15 @@
   "description": "Normalize.css in CSS-in-JS format",
   "main": "src/index.js",
   "scripts": {
-    "cover": "cross-env NODE_ENV=test nyc --reporter=lcov mocha 'src/*.test.js'",
+    "test:lcov": "cross-env NODE_ENV=test nyc --reporter=lcov mocha 'src/*.test.js'",
     "check-coverage": "cross-env NODE_ENV=test nyc check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
     "report-coverage": "cat ./coverage/lcov.info | codecov",
-    "test": "mocha --require @babel/polyfill --require @babel/register 'src/*.test.js'",
+    "test": "cross-env NODE_ENV=test nyc mocha --require @babel/polyfill --require @babel/register 'src/*.test.js'",
+    "test:withoutcover": "mocha --require @babel/polyfill --require @babel/register 'src/*.test.js'",
     "test:watch": "npm test -- --watch",
     "prebuild": "rimraf dist",
     "build": "babel src --out-dir dist --ignore 'src/*.test.js'",
-    "validate": "npm run cover && npm run check-coverage"
+    "validate": "npm run test:lcov && npm run check-coverage"
   },
   "repository": {
     "type": "git",
@@ -60,7 +61,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "lint-staged && npm run validate"
+      "pre-commit": "lint-staged",
+      "pre-push": "yarn validate"
     }
   },
   "lint-staged": {

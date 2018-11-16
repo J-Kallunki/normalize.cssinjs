@@ -7,7 +7,6 @@ const reset2 = normalizeCssInJs({
   cssToString: true
 });
 
-const FOUND_SELECTOR = 'html';
 
 describe('normalize.cssinjs', () => {
   it('Should be an object', () => {
@@ -19,13 +18,13 @@ describe('normalize.cssinjs', () => {
     const keys = Object.keys(reset);
     const keys2 = Object.keys(reset2);
 
-    expect(keys).to.contain(FOUND_SELECTOR);
-    expect(keys2).to.contain(FOUND_SELECTOR);
+    expect(keys).to.contain('html');
+    expect(keys2).to.contain('html');
   });
 
   it('Should contain declarations', () => {
-    const values = reset[FOUND_SELECTOR];
-    const values2 = reset2[FOUND_SELECTOR];
+    const values = reset['html'];
+    const values2 = reset2['html'];
 
     expect(values).to.be.a('object');
     expect(values[Object.keys(values)[0]]).to.be.a('string');

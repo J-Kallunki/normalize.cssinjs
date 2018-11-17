@@ -50,7 +50,7 @@
     "codecov.io": "0.1.6",
     "cross-env": "5.2.0",
     "husky": "1.1.4",
-    "lint-staged": "8.0.4",
+    "lint-staged": "8.0.5",
     "mocha": "5.2.0",
     "mocha-loader": "2.0.0",
     "nyc": "13.1.0",

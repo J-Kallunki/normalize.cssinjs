@@ -2,7 +2,7 @@
   "name": "normalize.cssinjs",
   "version": "1.0.2",
   "description": "Normalize.css in CSS-in-JS format",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test:lcov": "cross-env NODE_ENV=test nyc --reporter=lcov mocha 'src/*.test.js'",
     "check-coverage": "cross-env NODE_ENV=test nyc check-coverage --statements 100 --branches 100 --functions 100 --lines 100",

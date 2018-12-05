@@ -4,18 +4,19 @@
 [![codecov coverage](https://img.shields.io/codecov/c/github/J-Kallunki/normalize.cssinjs.svg?style=flat-square)](https://codecov.io/github/J-Kallunki/normalize.cssinjs)
 [![version](https://img.shields.io/npm/v/normalize.cssinjs.svg?style=flat-square)](http://npm.im/normalize.cssinjs)
 [![downloads](https://img.shields.io/npm/dm/normalize.cssinjs.svg?style=flat-square)](http://npm-stat.com/charts.html?package=normalize.cssinjs&from=2015-08-01)
-[![MIT License](https://img.shields.io/npm/l/normalize.cssinjs.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+[![Greenkeeper badge](https://badges.greenkeeper.io/J-Kallunki/normalize.cssinjs.svg)](https://greenkeeper.io/)
+[![MIT License](https://img.shields.io/npm/l/normalize.cssinjs.svg?style=flat-square)](http://opensource.org/licenses/MIT) 
 
 Normalize.css in CSS-in-JS format - when you don't wan't to inject global. Uses other my library [css-in-to-js](https://github.com/J-Kallunki/css-in-to-js).
 
 ## Usage
 
-```
+```bash
 yarn add normalize.cssinjs
 OR
 npm install --save normalize.cssinjs
 ```
-```
+```bash
 import resets from 'normalize.cssinjs';
 ```
 
@@ -25,7 +26,7 @@ import resets from 'normalize.cssinjs';
 
 By default it uses [CSStools Normalize.css](https://github.com/csstools/normalize.css/) but you can provide your selected with:
 
-```
+```javascript
 import { normalizeCssInJs } from 'normalize.cssinjs';
 import cssString from "!raw-loader!normalize.css"
 const resets = normalizeCssInJs({ normalize: cssString })
@@ -35,7 +36,7 @@ const resets = normalizeCssInJs({ normalize: cssString })
 ### `cssToString`
 
 If you wan't to get CSS-declarations in CSS-string format use:
-```
+```javascript
 const resets = normalizeCssInJs({ cssToString: true })
 ```
 

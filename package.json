@@ -1,6 +1,6 @@
 {
   "name": "normalize.cssinjs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Normalize.css in CSS-in-JS format",
   "main": "src/index.js",
   "scripts": {
@@ -36,7 +36,7 @@
   "homepage": "https://github.com/J-Kallunki/normalize.cssinjs#readme",
   "dependencies": {
     "@csstools/normalize.css": "9.0.1",
-    "@j-kallunki/css-in-to-js": "1.0.1"
+    "@j-kallunki/css-in-to-js": "1.0.2"
   },
   "devDependencies": {
     "@babel/cli": "7.1.5",

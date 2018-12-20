@@ -42,7 +42,7 @@
     "@babel/cli": "7.2.3",
     "@babel/core": "7.2.2",
     "@babel/polyfill": "7.2.3",
-    "@babel/preset-env": "7.1.6",
+    "@babel/preset-env": "7.2.3",
     "@babel/register": "7.0.0",
     "babel-plugin-inline-import": "3.0.0",
     "babel-plugin-istanbul": "5.1.0",

@@ -52,6 +52,6 @@ Convert any CSS-string to styled-format object or object with CSS-declarations a
 
 ## Acknowledgements
 
-Uses [CleanCSS](https://github.com/jakubpawlowicz/clean-css) for cleaning up the CSS and [PostCSS](https://github.com/postcss/postcss) for parsing the CSS.
+Uses [PostCSS](https://github.com/postcss/postcss) for parsing the CSS.
 
 normalize.css is a project by [Jonathan Neal](https://github.com/jonathantneal), co-created with [Nicolas Gallagher](https://github.com/necolas).

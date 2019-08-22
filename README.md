@@ -52,6 +52,10 @@ Minify CSS-string
 
 Convert any CSS-string to styled-format object or object with CSS-declarations as string.
 
+### `resetWithSelectors(resets)(selectors)`
+
+Return resets (CSS) for selector or array of selectors.
+
 ## Acknowledgements
 
 Uses [PostCSS](https://github.com/postcss/postcss) for parsing the CSS.

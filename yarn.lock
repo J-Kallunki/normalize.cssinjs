@@ -722,10 +722,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-10.1.0.tgz#f0950bba18819512d42f7197e56c518aa491cf18"
   integrity sha512-ij4wRiunFfaJxjB0BdrYHIH8FxBJpOwNPhhAcunlmPdXudL1WQV1qoP9un6JsEBAgQH+7UXyyjh0g7jTxXK6tg==
 
-"@j-kallunki/css-in-to-js@1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@j-kallunki/css-in-to-js/-/css-in-to-js-1.0.5.tgz#0ce3aec875b16817c0e702260cc73eb198f44200"
-  integrity sha512-1u1B41D7urc4HkSjkPeM53BMfENFzjJ4nhfQo17njA87ZRtbf/dx0Q3Zl9X4yTIT8jrnln2k7i/tLfgpCXRciQ==
+"@j-kallunki/css-in-to-js@1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@j-kallunki/css-in-to-js/-/css-in-to-js-1.0.6.tgz#01de224f7f3b003286b07b335a0c525f9955f964"
+  integrity sha512-3pjXzUM/rFcpjbDGgYFU2+jmDPomzwd/twmxrrF8xy9MbbdxybWrFpVl6w4yBNaeQduySET4IaM4Hpv/NNGUag==
   dependencies:
     lodash "4.17.15"
     postcss "7.0.5"

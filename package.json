@@ -1,6 +1,6 @@
 {
   "name": "normalize.cssinjs",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Normalize.css in CSS-in-JS format",
   "main": "dist/index.js",
   "types": "index.d.ts",

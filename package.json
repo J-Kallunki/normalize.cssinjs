@@ -38,7 +38,7 @@
   "homepage": "https://github.com/J-Kallunki/normalize.cssinjs#readme",
   "dependencies": {
     "@csstools/normalize.css": "10.1.0",
-    "@j-kallunki/css-in-to-js": "1.0.5"
+    "@j-kallunki/css-in-to-js": "1.0.6"
   },
   "devDependencies": {
     "@babel/cli": "7.1.5",
